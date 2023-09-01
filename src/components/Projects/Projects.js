@@ -2,11 +2,16 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import Realestate from "../../Assets/Projects/Realestate.jpeg"
+import calculatorlogo from "../../Assets/Projects/calculatorlogo.jpeg"
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
+import todolist from "../../Assets/Projects/todolist.png"
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import chatify from "../../Assets/Projects/chatify.png"
+import emojisearch from "../../Assets/Projects/emojisearch.jpeg"
 import suicide from "../../Assets/Projects/suicide.png";
+import eleganceeat from "../../Assets/Projects/eleganceeat.png"
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
@@ -23,68 +28,56 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={Realestate}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="RealEstate"
+              description="Charming colonial-style home nestled in a tranquil wooded setting, offering both serenity and convenience in one perfect package."
+              ghLink="https://github.com/KARANRONNIE1820/Full-stack-real-estate-app"
+              demoLink="https://marvelous-lollipop-5970a2.netlify.app"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={eleganceeat}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="EleganceEat"
+              description="Discover a world of culinary delights with our recipe app. From mouthwatering mains to delectable desserts, we've got your cravings covered."
+              ghLink="https://github.com/KARANRONNIE1820/EleganceEat-food-recipeapp"
+              demoLink="https://64f1e8a7f4e4b06f602391c6--chipper-tartufo-818e15.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={todolist}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Todolist"
+              description="Stay organized and productive with our user-friendly to-do list app, your personal task manager for a more efficient day"
+              ghLink="https://github.com/KARANRONNIE1820/Todo-list-application"
+              demoLink="https://64f1efdf7069f67558a28d3e--superb-praline-06fe00.netlify.app/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={calculatorlogo}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Calculator"
+              description="Unlock the power of precision and computation with our advanced calculator, your trusted companion for all your mathematical needs, from simple arithmetic to complex equations, making every calculation a breeze"
+              ghLink="https://github.com/KARANRONNIE1820/react-calculator-app1820"
+              demoLink="https://64f1fb269f249300aac24979--incredible-starlight-0b850e.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={emojisearch}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Emojisearch"
+              description="Discover the perfect emoji to express your emotions and convey your message with our comprehensive emoji search tool, where every feeling, gesture, and symbol is just a click away"
+              ghLink="https://github.com/KARANRONNIE1820/react-emoji-search"
+              demoLink="https://64f1fe52298f3c00a25dac82--incredible-croquembouche-e8fc24.netlify.app/"
             />
           </Col>
         </Row>
