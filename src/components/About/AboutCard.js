@@ -8,12 +8,9 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Karan .R . Satelkar </span>
+            Hi Everyone, I am <span className="purple"> Karan .R. Satelkar </span>
             from <span className="purple"> Mumbai, India.</span>
-            <br /> I am a  student pursuing an Full Stack From (Skill Safari)
-            <br />
-            Additionally, I am currently working myself  as a Front-End-developer.
-            <br />
+            <br /> I am a Full Stack student pursuing an Diplona in  Skill Safari.
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
@@ -22,7 +19,7 @@ function AboutCard() {
               <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Imagining some new Ides 
+              <ImPointRight /> Exploring New Things
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
@@ -32,7 +29,7 @@ function AboutCard() {
           <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
           </p>
-          <footer className="blockquote-footer">Karan .R . Satelkar</footer>
+          <footer className="blockquote-footer">KaranSatelkar</footer>
         </blockquote>
       </Card.Body>
     </Card>
